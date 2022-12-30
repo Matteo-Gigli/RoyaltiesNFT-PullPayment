@@ -1,14 +1,14 @@
 # RoyaltiesNFT-PullPayment
 
 
-<h2>Royalties NFT & Pull Payments</h2>
+<h2>💡 Royalties NFT & Pull Payments</h2>
 <br>
 <h3>Openzeppelin contracts used: </h3>
 <h3>ERC2981.sol, PullPayments.sol, Ownable.sol, ERC721URIStorage.sol, Counters.sol, ReentrancyGuard.sol, SafeMath.sol</h3>
 <br>
 <br>
 
-<h2>RoyaltiesToken.sol</h2>
+<h2>🖼️ RoyaltiesToken.sol</h2>
 <br>
 <h3>First of all we are going to initialize the Marketplace address, via initMarketplace() function.</h3>
 <h3>After this we can go to mint our token/tokens at 1 wei price each.</h3>
@@ -21,7 +21,7 @@
 <br>
 <br>
 
-<h3>Marketplace.sol</h3>
+<h3>📊 Marketplace.sol</h3>
 <h3>This contract is the marketplace where we can set in sale our tokens and withdraw our ETH thanks to the PullPayment method, from PullPayments.sol</h3>
 <h3>First of all we are going to set the sale, via setInSale() function.</h3>
 <h3>After this we can go to use our buyToken() function.</h3>
@@ -35,13 +35,9 @@
 <h3>Obvoiusly is amount out is 0 and we will try to pull some eth out we will receive an error, instead we will receive our part of ETH</h3>
 
 <br>
-
-<h2>Plus</h2>
-<h3>I tryed to run slither . to check vulnerabilities of the contracts, and nothing really scared is being out</h3>
-
 <br>
 
-<h2>Stack Used:</h2>
+<h2>🔧 Stack Used:</h2>
 
 <h3>Solidity</h3>
 <h3>Hardhat</h3>
